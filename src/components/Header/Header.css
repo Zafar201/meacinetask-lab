@@ -1,0 +1,27 @@
+.header {
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+.header input{
+    border: none;
+    background: none !important;
+    margin-left: 12px;
+    width: 82%;
+}
+.header input:focus{
+    outline: none;
+}
+.header-right{
+ text-align: right;
+}
+.header-right button{
+    padding: 11px;
+    border-radius: 11px;
+    border: none;
+    background: #db3529;
+    font-size: 14px;
+    color: white;
+    width: 142px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+}

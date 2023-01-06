@@ -1,0 +1,10 @@
+/* Rating */
+.rating span {
+    color: #db3529;
+    margin: 0.1rem;
+  }
+  .rating{
+    text-align: center;
+    margin-top: 12px !important;
+    height: 14px;
+  }

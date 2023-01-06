@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 2rem;
+  transition: all 300ms ease;
+  width: 17%;
+  background: white;
+  height: 100vh;
+}
+.sidebar-logo {
+  text-align: center;
+    place-content: center;
+}
+.sidebar-logo h1{
+  font-size: 24px;
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 11px;
+    letter-spacing: 0px;
+    font-family: 'Abril Fatface', cursive;
+}
+.sidebar-logo p{
+  opacity: 0.6;
+    font-weight: 700;
+    font-size: 12px;
+}
+.sidebar-logo img{
+  width: fit-content;
+  height: 63px;
+  margin-top: 12px;
+  object-fit: contain;
+}
+.bars {
+  display: none;
+}
+.sidebar-drop{
+  align-self: center;
+    margin-top: -15px;
+    background: white;
+    /* box-shadow: 0 19px 22px rgb(0 0 0 / 20%); */
+    box-shadow: 0 5px 14px rgb(0 0 0 / 20%);;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 1px;
+}
+.sidebar-drop svg{
+  color:#db3529 !important;
+  margin-right: 4px;
+}
+
+.logo {
+  display: flex;
+  height: 5rem;
+  font-weight: bold;
+  font-size: 22px;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  height: 4%;
+  margin-bottom: 26px;
+}
+.logo > span > span {
+  color: var(--pink);
+}
+
+.logo > img {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* menu */
+.menu {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 2.5rem;
+  margin-left: 2rem;
+  position: relative;
+  transition: all 300ms ease;
+  border-radius: 0.7rem;
+  font-size: 14px;
+  align-items: center;
+  opacity: 0.7;
+}
+.menuItem
+
+
+.menuItem:hover {
+  cursor: pointer;
+}
+
+.menu .menuItem:last-child {
+  position: absolute;
+  bottom: 2.3rem;
+  width: 100%;
+}
+
+.active {
+  background: var(--activeItem);
+  margin-left: 0;
+  opacity: 1;
+}
+.active::before {
+  content: "";
+  width: 8px;
+  height: 100%;
+  background: var(--pink);
+  margin-right: calc(1rem - 8px);
+}
+.activeIcon{
+  color: #db3529;
+}
+/* Tablets */
+@media screen and (max-width: 1200px) {
+  .menuItem > span {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    z-index: 9;
+    background: aqua;
+    width: 55%;
+    padding-right: 1rem;
+    height: 100%;
+  }
+  .menuItem > span {
+    display: block;
+  }
+  .logo {
+    display: flex;
+  }
+  .menu .menuItem:last-child {
+    position: relative;
+    margin-top: 6rem;
+  }
+  .bars {
+    display: flex;
+    position: fixed;
+    top: 2rem;
+    left: 60%;
+    background: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 9;
+  }
+  .close {
+    left: -60%;
+  }
+}
+.menuItem p{
+    width: 80%;
+  text-align: center;
+}

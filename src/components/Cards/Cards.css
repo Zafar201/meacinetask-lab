@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:wght@700&family=Playfair+Display:wght@500;700&display=swap");
+.card-design {
+  /* width: 19%; */
+  height: auto;
+  background: white;
+  border-radius: 12px;
+  margin-top: 24px;
+  /* padding-bottom: 12px; */
+  margin: 26px;
+  width: 18% !important;
+  margin-top: 43px !important;
+  box-shadow: 0 19px 22px rgb(0 0 0 / 20%);
+  position: relative;
+}
+.card-img {
+  place-content: center;
+  height: 42px;
+}
+.card-img img {
+  width: 38% !important;
+  margin-bottom: 42px;
+  margin-top: -16px;
+  border-radius: 39px;
+}
+.item-name {
+  text-align: center;
+  margin-top: -17px;
+}
+.item-name h1 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.item-name p {
+  background: aliceblue;
+  width: fit-content;
+  padding: 4px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+.item-type {
+  padding-left: 18px;
+  margin-right: 0px !important;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.item-type h2 {
+  font-size: 20px;
+  font-weight: bold;
+  height: 22px;
+  line-height: 39px;
+}
+.item-type span {
+  opacity: 0.6;
+}
+.item-border {
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+}
+.card-bottom {
+  text-align: center;
+
+  border-radius: 0px 0px 7px 12px;
+  padding: 9px;
+}
+.card-bottom h3 {
+  font-size: 17px;
+}
+.card-design hr {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.card-design:hover .card-bottom {
+  background: #db3529;
+}
+.card-design:hover .card-bottom h3 {
+  color: white;
+}
+.card-design:hover {
+  margin-top: -12px;
+}
+.beginner {
+  background-color: #eff4f0 !important;
+  color: darkgreen;
+}
+.advanced {
+  background-color: #f6eaec !important;
+  color: purple;
+}
+.intermediate {
+  background-color: #fef2ea !important;
+  color: darkgoldenrod;
+}
+.mentor-cards {
+  height: auto;
+  background: #7dbfa2;
+  border-radius: 12px;
+  margin-top: 24px;
+  margin: 26px;
+  width: 18% !important;
+  margin-top: 43px !important;
+  box-shadow: 0 19px 22px rgb(0 0 0 / 20%);
+  position: relative;
+  padding: 17px;
+}
+.mentor-cards p {
+  background: black;
+  width: fit-content;
+  color: wheat;
+  font-size: 14px;
+  border-radius: 7px;
+  margin-left: 13px;
+  z-index: 999;
+}
+.mentor-cards h2 {
+  font-size: 16px;
+  position: absolute;
+  bottom: 19px;
+  color: white;
+  z-index: 999;
+  font-weight: 100;
+}
+.mentor-cards h1 {
+  font-size: 29px;
+  font-weight: 800;
+  color: white;
+  bottom: 87px;
+  position: absolute;
+  z-index: 999;
+
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: "Playfair Display", serif;
+}
+.chef-img {
+  right: -150px !important;
+
+  width: 215px !important;
+  position: absolute;
+
+  top: -111px !important;
+}
+@media screen and (max-width: 934px) {
+.card-design{
+  min-width: 204px
+}
+.mentor-cards {
+  min-width: 204px;
+  height:254px;
+
+}
+.main-cards{
+    justify-content: center;
+}
+}
