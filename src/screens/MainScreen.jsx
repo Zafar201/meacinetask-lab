@@ -11,10 +11,10 @@ function MainScreen() {
         animate={{opacity:1}}
         transition={{delay:1.5,duration:1.5}}>
             <Row className='main-header'>
-                <Col md={1}>
+                <Col md={1} className='mb-header-1'>
                    <img src="/assets/4.jpg" alt="" />
                 </Col>
-                <Col md={8} style={{paddingLeft:'0px'}}>
+                <Col md={8} style={{paddingLeft:'0px'}} className='mb-header-2'>
                   <Row>
                     <h1>Only The Best Recipes!</h1>           
                   </Row>

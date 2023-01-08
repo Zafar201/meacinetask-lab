@@ -1,3 +1,5 @@
+import {FaLeaf }from 'react-icons/fa'
+
 export const cardsRecipe=[
     {
         id:'1',
@@ -6,7 +8,7 @@ export const cardsRecipe=[
         level:'intermediate',
         min:'25',
         kcal:'95',
-        meat:'',
+        icon:FaLeaf,
         rating:'5',
     },
     {
@@ -16,7 +18,7 @@ export const cardsRecipe=[
         level:'advanced',
         min:'25',
         kcal:'95',
-        meat:'',
+        icon:FaLeaf,
         rating:'4',
     },
     {
@@ -26,7 +28,7 @@ export const cardsRecipe=[
         level:'beginner',
         min:'25',
         kcal:'95',
-        meat:'',
+        icon:'',
         rating:'3.5',
     },
     {
@@ -36,7 +38,7 @@ export const cardsRecipe=[
         level:'intermediate',
         min:'25',
         kcal:'95',
-        meat:'',
+        icon:'',
         rating:'4.5',
     },
     {
@@ -46,7 +48,7 @@ export const cardsRecipe=[
         level:'beginner',
         min:'25',
         kcal:'95',
-        meat:'',
+        icon:'',
         rating:'3.5',
     },
     {
@@ -56,7 +58,7 @@ export const cardsRecipe=[
         level:'advanced',
         min:'25',
         kcal:'95',
-        meat:'',
+        icon:'',
         rating:'2',
     },
     {
@@ -66,7 +68,7 @@ export const cardsRecipe=[
         level:'beginner',
         min:'25',
         kcal:'95',
-        meat:'',
+        icon:'',
         rating:'3',
     },
     {
@@ -76,7 +78,7 @@ export const cardsRecipe=[
         level:'intermediate',
         min:'25',
         kcal:'95',
-        meat:'',
+        icon:'',
         rating:'4',
     },
 

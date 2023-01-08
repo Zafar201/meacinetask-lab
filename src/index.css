@@ -71,5 +71,24 @@
   .dashboard{
     width: 100%;
   }
+  .App{
+    height: auto;
+    background-color: #fcf4f0;
+  }
+  .mb-header-1{
+    width: 24% !important;
+  }
+  .mb-header-2{
+    width: 70% !important;
+  }
+  .main-header p{
+    margin-top: 38px !important;
+  }
+
+}
+@media screen and (max-width: 400px){
+  .main-header h1{
+    font-size: 26px;
+  }
 
 }

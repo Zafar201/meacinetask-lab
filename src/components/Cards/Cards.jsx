@@ -4,6 +4,7 @@ import Rating from "../rating/Rating";
 import "./Cards.css";
 import { motion, useAnimation } from "framer-motion";
 import { cardsRecipe } from "../../data";
+import {FaFish} from 'react-icons/fa'
 function Cards() {
   const divAnimationVariants = {
     init: {
@@ -26,7 +27,7 @@ function Cards() {
           className="card-design"
           md={3}
          
-          whileHover={{ scaleY: 1.1 }}
+          whileHover={i < 3 && {  scaleY: 1.1 }}
           transition={{ stype: "spring", stiffness: 3000 }}>
               <Row className="card-img">
                 <img src="/assets/3.jpg" alt="" />
@@ -58,7 +59,7 @@ function Cards() {
                   <span>mm</span>
                 </Col>
                 <Col>
-                  <h2>25</h2>
+                <FaFish/>
                   <span>mm</span>
                 </Col>
               </Row>
@@ -67,7 +68,7 @@ function Cards() {
               </Row>
               <hr />
               <Row className="card-bottom">
-                <h3>start cooking</h3>
+                <h3>Start cooking</h3>
               </Row>
               </motion.Col>
 

@@ -89,8 +89,20 @@ const Sidebar = () => {
             );
           })}
           <div className="menuItem">
+            {/* <Row className="peoples">
+              <Col>
+              <img src="/assets/pro1.png" alt="" />
+              </Col>
+              <Col>
+              <img src="/assets/pro2.png" alt="" />
+              </Col>
+              <Col>
+                 <button>+</button>
+              </Col>
+
+            </Row> */}
             <Row>
-             <p>creat a team and take part in tv show</p>
+             <p>creat a team and take part in <span className="menu-spam">Tv show !</span> </p>
             </Row>
       
           </div>

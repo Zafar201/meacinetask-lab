@@ -20,7 +20,8 @@
   width: 38% !important;
   margin-bottom: 42px;
   margin-top: -16px;
-  border-radius: 39px;
+  border-radius: 50px;
+  margin-left: 12px;
 }
 .item-name {
   text-align: center;
@@ -43,31 +44,41 @@
   padding-top: 12px;
   padding-bottom: 12px;
 }
+
+.item-type span {
+  opacity: 0.6;
+}
+.item-border {
+  border-right: 1px solid lavender;
+  border-left: 1px solid lavender;
+  /* opacity: 0.3; */
+}
 .item-type h2 {
   font-size: 20px;
   font-weight: bold;
   height: 22px;
   line-height: 39px;
-}
-.item-type span {
-  opacity: 0.6;
-}
-.item-border {
-  border-right: 1px solid grey;
-  border-left: 1px solid grey;
+  /* opacity: 1; */
+    color: black;
 }
 .card-bottom {
   text-align: center;
 
   border-radius: 0px 0px 7px 12px;
   padding: 9px;
+  cursor: pointer;
 }
 .card-bottom h3 {
   font-size: 17px;
+    font-weight: 600;
 }
 .card-design hr {
   margin-top: 15px;
   margin-bottom: 0px;
+  width: 113%;
+  padding-left: 0;
+  margin-left: -12px;
+  opacity: 0.1;
 }
 .card-design:hover .card-bottom {
   background: #db3529;
