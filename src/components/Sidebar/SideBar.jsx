@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-// import { SidebarData } from "../Data/Data";
-import { UilBars } from "@iconscout/react-unicons";
 import { motion } from "framer-motion";
 import { Col, Row } from "react-bootstrap";
 import {MdOutlineFavoriteBorder} from 'react-icons/md'
@@ -89,18 +87,7 @@ const Sidebar = () => {
             );
           })}
           <div className="menuItem">
-            {/* <Row className="peoples">
-              <Col>
-              <img src="/assets/pro1.png" alt="" />
-              </Col>
-              <Col>
-              <img src="/assets/pro2.png" alt="" />
-              </Col>
-              <Col>
-                 <button>+</button>
-              </Col>
-
-            </Row> */}
+      
             <Row>
              <p>creat a team and take part in <span className="menu-spam">Tv show !</span> </p>
             </Row>
